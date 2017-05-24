@@ -1,0 +1,22 @@
+{
+  "name": "build-uproject",
+  "version": "0.0.1",
+  "main": "src/main.js",
+  "license": "MIT",
+  "repository": "https://github.com/zaucy/atom-build-uproject",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Builder for Unreal Projects",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "dependencies": {
+    "regedit": "^2.2.6",
+    "uproject": "0.0.3"
+  }
+}

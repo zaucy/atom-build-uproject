@@ -1,0 +1,14 @@
+{
+	"fileTypes": [
+		"uproject"
+	],
+	"name": "UPROJECT",
+
+	"scopeName": "source.uproject",
+
+	"constant": {
+		"match": "\\b(?:true|false|null)\\b",
+		"name": "constant.language.uproject"
+	}
+
+}
